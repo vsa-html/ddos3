@@ -127,14 +127,14 @@ git --version
 ### Instalasi
 
 ```bash
-git clone https://github.com/username/smash.git
+git clone https://github.com/vsa-html/ddos3.git
 cd smash
 ```
 
 ### Jalankan
 
 ```bash
-python smash34.py
+python main.py
 ```
 
 ### Pilih Level Crawl
