@@ -2642,7 +2642,7 @@ def website_hack():
             print(f"      {R}{u}{N}")
 
     # ── Auto-download ZIP ke /storage/emulated/0/data ─────────────────────────
-    dest_dir = "/storage/emulated/0/data" if os.path.isdir("/storage/emulated/0") else os.path.join(os.getcwd(), "data")
+    dest_dir = "/storage/emulated/0/Download" if os.path.isdir("/storage/emulated/0") else os.path.join(os.path.expanduser("~"), "Downloads")
     dest_zip = os.path.join(dest_dir, os.path.basename(zip_path))
     try:
         os.makedirs(dest_dir, exist_ok=True)
