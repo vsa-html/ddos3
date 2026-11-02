@@ -128,7 +128,7 @@ git --version
 
 ```bash
 git clone https://github.com/vsa-html/ddos3.git
-cd smash
+cd ddos3
 ```
 
 ### Jalankan
